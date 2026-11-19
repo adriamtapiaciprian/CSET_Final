@@ -1,4 +1,3 @@
-
 let menuItems = [
   {
     available: true,

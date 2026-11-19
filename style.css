@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* log in page */
+
+.customerLogin{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+    padding: 40px;
+}
+
+body{
+    background-color: beige;
+    font-family: 'Spongeboy Me Bob', sans-serif;
+}
+
+/* actual log in box */
+.loginBox{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 18px;
+    width: 450px;
+}
+
+.loginBox p{
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+
+.loginBox h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.login-logup h3{
+    font-size: 7px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.input-field {
+    margin: 10px 0;
+}
+
+.input-field input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid rgb(246, 70, 93);
+    border-radius: 8px;
+    background-color: #f8f3e6;
+}
+
+#email{
+    font-family: 'Spongeboy Me Bob', sans-serif;  
+}
+
+#password{
+    font-family: 'Spongeboy Me Bob', sans-serif;
+}
+
+.btn-solid{
+    border-color: red;
+    background-color: red;
+    border-radius: 8px;
+    color: white;
+    padding: 5px 40px 5px 40px;
+    text-align: center;
+    margin: 20px 30px 20px 30px;
+    font-family: 'Spongeboy Me Bob', sans-serif;
+    
+}
+
+.btn-solid:hover{
+    cursor: pointer;
+    background-color: darkred;
+}
+
+.login-logup a{
+    color: red;
+    display: block;
+    margin-top: 20px;
+}
+
+/* ad next to the login box */
+.ad{
+    background-color: rgb(128, 220, 216);
+    color: rgb(26, 61, 68);
+    text-align: center;
+    border-radius: 18px;
+    overflow: hidden;
+    width: 450px;
+    padding-top: 20px;
+}
+
+.greetings h1{
+    padding-bottom: 40px;
+}
+
+.greetings p{
+    padding: 20px;
+}
+
+.burgerPic{
+    display: block;
+    width: 100%;
+    padding-bottom: 20px
+}
