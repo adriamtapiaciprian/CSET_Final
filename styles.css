@@ -5,27 +5,27 @@
 }
 
 /* log in page */
+
+.customerLogin{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+    padding: 40px;
+}
+
 body{
     background-color: beige;
     font-family: 'Spongeboy Me Bob', sans-serif;
-}
-
-/* .header{
-
-} */
-
-.headerImage{
-    height: 50px;
 }
 
 /* actual log in box */
 .loginBox{
     background-color: white;
     padding: 30px;
-    margin-left: 400px;
     text-align: center;
     border-radius: 18px;
-    margin-right: 50px;
+    width: 450px;
 }
 
 .loginBox p{
@@ -75,22 +75,41 @@ body{
     text-align: center;
     margin: 20px 30px 20px 30px;
     font-family: 'Spongeboy Me Bob', sans-serif;
+    
+}
+
+.btn-solid:hover{
+    cursor: pointer;
+    background-color: darkred;
+}
+
+.login-logup a{
+    color: red;
+    display: block;
+    margin-top: 20px;
 }
 
 /* ad next to the login box */
 .ad{
     background-color: rgb(128, 220, 216);
     color: rgb(26, 61, 68);
-    padding: 30px;
-    margin-right: 400px;
     text-align: center;
     border-radius: 18px;
-    margin-left: 50px;
+    overflow: hidden;
+    width: 450px;
+    padding-top: 20px;
 }
 
-.adImage{}
+.greetings h1{
+    padding-bottom: 40px;
+}
+
+.greetings p{
+    padding: 20px;
+}
 
 .burgerPic{
-    width: 270px;
-    margin-left: 50px;
+    display: block;
+    width: 100%;
+    padding-bottom: 20px
 }
