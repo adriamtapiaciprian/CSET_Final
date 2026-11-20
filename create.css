@@ -42,13 +42,13 @@ p {
     font-size: 25px;
 }
 
-.burgers, .combos, .sides {
+.burgers, .combos, .sides, .drinks {
     display: flex;
     margin-left: 70px;
     gap: 35px;
 }
 
-.burger-BG,.combo-BG,.sides-BG {
+.burger-BG,.combo-BG,.sides-BG, .drinks-BG {
     display: block;
     padding: 20px;
     background-color: white;
@@ -57,7 +57,7 @@ p {
     border-radius: 20px;
 }
 
-.burger-Style, .combo-style,.sides-style {
+.burger-Style, .combo-style, .sides-style, .drinks-style {
     width: auto;
     height: 400px;
     border-radius: 20px;
