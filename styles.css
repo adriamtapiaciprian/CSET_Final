@@ -229,3 +229,85 @@
     width: 100%;
     padding-bottom: 20px
 }
+
+
+
+
+
+
+
+
+/* manager Login */
+.ManagerLoginBody{
+    background-color: beige;
+    font-family: 'Spongeboy Me Bob', sans-serif;
+}
+
+.loginBoxManager{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 18px;
+    width: 450px;
+    margin: 40px auto;
+}
+
+.loginBoxManager p{
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+
+.loginBoxManager h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.login-logupManager h3{
+    font-size: 7px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.input-fieldManager {
+    margin: 10px 0;
+}
+
+.input-fieldManager input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid rgb(246, 70, 93);
+    border-radius: 8px;
+    background-color: #f8f3e6;
+}
+
+#email{
+    font-family: 'Spongeboy Me Bob', sans-serif;  
+}
+
+#password{
+    font-family: 'Spongeboy Me Bob', sans-serif;
+}
+
+.btn-solidManager{
+    border-color: red;
+    background-color: red;
+    border-radius: 8px;
+    color: white;
+    padding: 5px 40px 5px 40px;
+    text-align: center;
+    margin: 20px 30px 20px 30px;
+    font-family: 'Spongeboy Me Bob', sans-serif;
+}
+
+.btn-solidManager:hover{
+    cursor: pointer;
+    background-color: darkred;
+}
+
+.login-logupManager a{
+    color: red;
+    display: block;
+    margin-top: 20px;
+}
